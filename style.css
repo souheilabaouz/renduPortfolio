@@ -81,16 +81,77 @@ h1 {
     h2 {
         margin: 70px;
     }
-    .titre{
+
+    .titre {
         padding: 20px;
     }
 }
 
 #bandeau .container {
-    background-color: black;
     padding: 50px;
     display: flex;
     justify-content: space-around;
+        align-items: center;
+}
+
+#réalisation .container {
+    .wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
 
 }
 
+.cardRealisation {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    perspective-origin: center;
+    gap: 14px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+}
+section#bandeau {
+    background-color: black;
+}
+.card .container{
+display: flex;
+flex-direction: row;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+.espace{
+   
+
+}
+.carte{
+    background-color: #F3F3F3;
+
+}
+.emoji{
+color: white;
+}
+.formulaire{
+    
+}
+i{
+    color: #F3F3F3;
+    font-size: 20px;
+}
+.card i{
+    color:black
+    font-size: 20px;
+}
