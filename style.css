@@ -8,6 +8,8 @@ header {
 
     a {
         color: white;
+        border-bottom: 1px solid #888784;
+        text-decoration: none;
     }
 
     ul {
@@ -20,7 +22,10 @@ header {
     }
 }
 
-
+#hero .container {
+    font-size: 26px;
+    font-family: "Epilogue", sans-serif;
+}
 
 .bloc {
     display: flex;
@@ -46,8 +51,6 @@ a.btn {
     font-weight: 600;
 }
 
-
-
 h1 {
     font-family: "Epilogue", sans-serif;
     font-style: normal;
@@ -59,7 +62,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-        padding: 30px;
+    padding: 30px;
 }
 
 .container {
@@ -70,18 +73,33 @@ h1 {
         text-align: center;
     }
 
-
-
     .card {
         display: flex;
-        flex-direction: row;
-        align-items: center;
         gap: 200px;
         margin: 38px;
+
+        h3.titre {
+            text-align: center;
+        }
+        p{text-align: center;
+
+        }
     }
 
     h2 {
         margin: 70px;
+        font-size: 28px;
+        font-family: "Epilogue", sans-serif;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-family: "Epilogue", sans-serif;
+    }
+
+    p {
+        font-size: 15px;
+        font-family: "Epilogue", sans-serif;
     }
 
     .titre {
@@ -102,8 +120,6 @@ h1 {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-
 }
 
 .cardRealisation {
@@ -130,7 +146,6 @@ section#bandeau {
 .card .container {
     display: flex;
     flex-direction: row;
-
 }
 
 footer {
@@ -139,19 +154,17 @@ footer {
     padding: 40px;
 }
 
-.espace {}
 
 .carte {
     background-color: #F3F3F3;
-    padding: 9px;
-
+    padding: 11px;
+    text-align: center;
+    align-content: center;
 }
 
 .emoji {
     color: white;
 }
-
-.formulaire {}
 
 i {
     color: #F3F3F3;
@@ -166,8 +179,14 @@ i.carte {
 #fin .container {
     h2 {
         margin-top: 2px;
+        font-size: 32px;
+        font-family: "Epilogue", sans-serif;
     }
 
+    p {
+        font-size: 17px;
+        font-family: "Epilogue", sans-serif;
+    }
 }
 
 .envoyer {
@@ -203,4 +222,13 @@ input {
     width: 130px;
     height: 40px;
     margin: 4px;
+}
+
+#temoignage .container {
+    p {
+        text-align: center;
+        font-size: 17px;
+        font-family: "Epilogue", sans-serif;
+        font-weight: bold;
+    }
 }
